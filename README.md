@@ -43,7 +43,10 @@ positional arguments:
 options:
   -h, --help
     show this help message and exit
-  --input_format {keras_keras,keras,keras_saved_model,tf_hub,tf_frozen_model,tf_saved_model,tfjs_layers_model}
+  --input_format {
+      keras_keras,keras,keras_saved_model,tf_hub,tf_frozen_model,
+      tf_saved_model,tfjs_layers_model
+    }
     Input format. For "keras", the input path can be one of the
     two following formats: - A topology+weights combined HDF5
     (e.g., generated with `tf_keras.model.save_model()` method). -
