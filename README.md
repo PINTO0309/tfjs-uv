@@ -6,7 +6,7 @@ Save all deprecated TensorFlow.js environments.
 uv sync
 source .venv/bin/activate
 ```
-```bash
+```
 tensorflowjs_converter -h
 
 usage: TensorFlow.js model converters.
